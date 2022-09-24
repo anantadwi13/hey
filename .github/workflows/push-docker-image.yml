@@ -16,7 +16,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            anantadwi13/rakyll/hey
+            anantadwi13/rakyll-hey
           tags: |
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}.{{minor}}
